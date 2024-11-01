@@ -1,5 +1,5 @@
-import { AppRoutes } from "@core/Routers/AppRouter";
 import { lazy } from "react";
+import { AppRoutes } from "@core/Routers/AppRouter";
 
 const DoctorLiveConnect = lazy(() => import("./components/DoctorLiveConnect"));
 
