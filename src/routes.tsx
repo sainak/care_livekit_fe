@@ -1,5 +1,7 @@
 import { AppRoutes } from "@core/Routers/AppRouter";
-import DoctorLiveConnect from "./components/DoctorLiveConnect";
+import { lazy } from "react";
+
+const DoctorLiveConnect = lazy(() => import("./components/DoctorLiveConnect"));
 
 const routes: AppRoutes = {
   "/live_connect/:username": ({ username }) => (
