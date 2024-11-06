@@ -1,4 +1,4 @@
-import { Type } from "@/Redux/api";
+import { Type } from "@/Utils/request/api";
 
 export interface LiveKitTokenRequest {
   source: string;

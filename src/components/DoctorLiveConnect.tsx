@@ -1,7 +1,7 @@
 import React from "react";
 
 import LiveKitComponent from "./LiveKitComponent";
-import { useAuthContext } from "@core/common/hooks/useAuthUser";
+import { useAuthContext } from "@core/hooks/useAuthUser";
 
 const PageTitle = React.lazy(() => import("@core/components/Common/PageTitle"));
 
